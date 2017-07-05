@@ -12,6 +12,7 @@
 		AC67CFE31F0D7A0600563DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC67CFE11F0D7A0600563DD8 /* Main.storyboard */; };
 		AC67CFE51F0D7A0600563DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC67CFE41F0D7A0600563DD8 /* Assets.xcassets */; };
 		AC67CFE81F0D7A0600563DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC67CFE61F0D7A0600563DD8 /* LaunchScreen.storyboard */; };
+		AC67CFF01F0D7E5300563DD8 /* TripCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC67CFEF1F0D7E5300563DD8 /* TripCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC67CFE41F0D7A0600563DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC67CFE71F0D7A0600563DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC67CFE91F0D7A0600563DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC67CFEF1F0D7E5300563DD8 /* TripCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AC67CFDD1F0D7A0600563DD8 /* AppDelegate.swift */,
 				AC67CFDF1F0D7A0600563DD8 /* ViewController.swift */,
 				AC67CFE11F0D7A0600563DD8 /* Main.storyboard */,
+				AC67CFEF1F0D7E5300563DD8 /* TripCollectionCell.swift */,
 				AC67CFE41F0D7A0600563DD8 /* Assets.xcassets */,
 				AC67CFE61F0D7A0600563DD8 /* LaunchScreen.storyboard */,
 				AC67CFE91F0D7A0600563DD8 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				AC67CFE01F0D7A0600563DD8 /* ViewController.swift in Sources */,
 				AC67CFDE1F0D7A0600563DD8 /* AppDelegate.swift in Sources */,
+				AC67CFF01F0D7E5300563DD8 /* TripCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

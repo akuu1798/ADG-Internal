@@ -13,9 +13,12 @@
 		AC67CFE51F0D7A0600563DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC67CFE41F0D7A0600563DD8 /* Assets.xcassets */; };
 		AC67CFE81F0D7A0600563DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC67CFE61F0D7A0600563DD8 /* LaunchScreen.storyboard */; };
 		AC67CFF01F0D7E5300563DD8 /* TripCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC67CFEF1F0D7E5300563DD8 /* TripCollectionCell.swift */; };
+		AC67CFF21F0D80C000563DD8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC67CFF11F0D80C000563DD8 /* Event.swift */; };
+		D1B0E576D1ACC6780E058E10 /* Pods_ADG_Internal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DB73D86067CB0538D746FD /* Pods_ADG_Internal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74EE1677D46C0AA4CF6739E0 /* Pods-ADG Internal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADG Internal.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADG Internal/Pods-ADG Internal.release.xcconfig"; sourceTree = "<group>"; };
 		AC67CFDA1F0D7A0600563DD8 /* ADG Internal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADG Internal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC67CFDD1F0D7A0600563DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC67CFDF1F0D7A0600563DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		AC67CFE71F0D7A0600563DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC67CFE91F0D7A0600563DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC67CFEF1F0D7E5300563DD8 /* TripCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCollectionCell.swift; sourceTree = "<group>"; };
+		AC67CFF11F0D80C000563DD8 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		E65B7541AC2F5DCDE8F5BB4C /* Pods-ADG Internal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADG Internal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADG Internal/Pods-ADG Internal.debug.xcconfig"; sourceTree = "<group>"; };
+		F5DB73D86067CB0538D746FD /* Pods_ADG_Internal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADG_Internal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B0E576D1ACC6780E058E10 /* Pods_ADG_Internal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EB3D96C7FF9DD16AEA454AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E65B7541AC2F5DCDE8F5BB4C /* Pods-ADG Internal.debug.xcconfig */,
+				74EE1677D46C0AA4CF6739E0 /* Pods-ADG Internal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC67CFD11F0D7A0600563DD8 = {
 			isa = PBXGroup;
 			children = (
 				AC67CFDC1F0D7A0600563DD8 /* ADG Internal */,
 				AC67CFDB1F0D7A0600563DD8 /* Products */,
+				3EB3D96C7FF9DD16AEA454AC /* Pods */,
+				C1CAEA8668C7433A688B1857 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +77,21 @@
 				AC67CFDD1F0D7A0600563DD8 /* AppDelegate.swift */,
 				AC67CFDF1F0D7A0600563DD8 /* ViewController.swift */,
 				AC67CFE11F0D7A0600563DD8 /* Main.storyboard */,
+				AC67CFF11F0D80C000563DD8 /* Event.swift */,
 				AC67CFEF1F0D7E5300563DD8 /* TripCollectionCell.swift */,
 				AC67CFE41F0D7A0600563DD8 /* Assets.xcassets */,
 				AC67CFE61F0D7A0600563DD8 /* LaunchScreen.storyboard */,
 				AC67CFE91F0D7A0600563DD8 /* Info.plist */,
 			);
 			path = "ADG Internal";
+			sourceTree = "<group>";
+		};
+		C1CAEA8668C7433A688B1857 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5DB73D86067CB0538D746FD /* Pods_ADG_Internal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC67CFEC1F0D7A0600563DD8 /* Build configuration list for PBXNativeTarget "ADG Internal" */;
 			buildPhases = (
+				4AF2F57850A8BE94CE258224 /* [CP] Check Pods Manifest.lock */,
 				AC67CFD61F0D7A0600563DD8 /* Sources */,
 				AC67CFD71F0D7A0600563DD8 /* Frameworks */,
 				AC67CFD81F0D7A0600563DD8 /* Resources */,
+				5A2E7AAB64B15402E87B873D /* [CP] Embed Pods Frameworks */,
+				5742982ECB48436F230103A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,11 +164,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AF2F57850A8BE94CE258224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5742982ECB48436F230103A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADG Internal/Pods-ADG Internal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A2E7AAB64B15402E87B873D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADG Internal/Pods-ADG Internal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC67CFD61F0D7A0600563DD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC67CFF21F0D80C000563DD8 /* Event.swift in Sources */,
 				AC67CFE01F0D7A0600563DD8 /* ViewController.swift in Sources */,
 				AC67CFDE1F0D7A0600563DD8 /* AppDelegate.swift in Sources */,
 				AC67CFF01F0D7E5300563DD8 /* TripCollectionCell.swift in Sources */,
@@ -264,6 +343,7 @@
 		};
 		AC67CFED1F0D7A0600563DD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65B7541AC2F5DCDE8F5BB4C /* Pods-ADG Internal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ADG Internal/Info.plist";
@@ -276,6 +356,7 @@
 		};
 		AC67CFEE1F0D7A0600563DD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74EE1677D46C0AA4CF6739E0 /* Pods-ADG Internal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ADG Internal/Info.plist";
